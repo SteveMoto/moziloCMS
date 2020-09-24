@@ -1,0 +1,75 @@
+/*
+ * Contact plugin css file
+ * 
+ * modified: 20-08-2020 - 06:34 Uhr
+ * 
+ */
+
+#contact_form {
+    width: 100%;
+}
+
+#contact_table {
+    width: 94%;
+    margin: 0;
+    padding: 0.2em;
+    font-size: 1em;
+}
+
+.row {
+    float: left;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.col-25 {
+    float: left;
+    width: 30%;
+}
+
+.col-75 {
+    float: left;
+    width: 60%;
+}
+
+.col-75 input {
+    margin: 0em;
+    width: 100%;
+}
+
+.col-75 textarea {
+    margin: 0em;
+    width: 100%;
+    height: 10em;
+}
+
+.col-75 input[type=submit] {
+ 
+    display: block;
+    vertical-align: middle;
+ 
+    width: 50;
+    height: 3em;
+     
+    background: #ccc;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.col-75 input[type=submit]:hover {
+    opacity:.8
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+label:last-of-type {padding: 12px}
+#contact_successmessage {color:green;}
+
+#contact_errormessage {color:red}
+ 
+}

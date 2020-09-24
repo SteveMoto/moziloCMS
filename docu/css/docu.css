@@ -1,0 +1,485 @@
+#do-box  {
+    font-size:12px !important;
+    font-family: "Arial", "Verdana", sans-serif !important;
+}
+
+#do-main {
+    font-size:12px !important;
+    font-family: "Arial", "Verdana", sans-serif !important;
+    padding:1em 0 3em 0;
+    margin:0;
+    background-color:#f8f8f8;
+    width: 100%;
+}
+
+#do-content {
+    line-height: initial;
+    width: 850px;
+    padding:0;
+    margin:0;
+    text-align : left;
+    vertical-align : top;
+    color:#3d3d3d;
+  }
+
+.do-body-nodialog #do-content {
+    min-height:28em;
+    padding: 1px 1em 1em 1em;
+  }
+
+.do-body-dialog #do-content {
+  }
+
+#do-content p {
+    line-height:1.5em;
+}
+
+#do-box h1 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
+
+#do-box h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0.83em;
+    margin-bottom: 0.83em;
+}
+
+#do-box h3 {
+    font-size: 1.17em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#do-content h4 {
+    font-weight: bold;
+    margin-top: 1.33em;
+    margin-bottom: 1.33em;
+}
+
+#getplaceholder {
+    float:right;
+}
+
+#do-box .do-nodialog-warp {
+    padding:1em 2em;
+}
+
+/* die mo- sachen sind die aus der admin/admin.css kommen */
+#do-box .mo-ui-tabs {
+    border-width: 0;
+    padding:0;
+}
+
+#do-box .mo-no-border-top {
+    border-top-width: 0;
+}
+
+#do-box .mo-menu-tabs {
+    border-bottom-width:0;
+}
+
+#do-box .mo-menu-tabs li {
+    white-space:nowrap;
+}
+
+#do-box .do-lang {
+    float: right;
+    position: relative;
+    left: -50%;
+    text-align: left;
+}
+
+#do-box .do-lang ul {
+    list-style: none;
+    list-style-position:inside;
+    position: relative;
+    left: 50%;
+}
+
+#do-box .do-lang li {
+    float: left;
+    position: relative;
+    top: 0;
+    margin: 0 .4em 0 .4em;
+    padding: 0;
+    white-space: nowrap;
+}
+
+#do-box .do-lang li a {
+    display:block;
+    padding:4px;
+    position: relative;
+    top: 0;
+}
+
+#do-box .do-lang li a img {
+    display:block;
+}
+
+/* das do-menu ist nur sichtbar in der standalone sache */
+#do-box .do-menu {
+    position:relative;
+    margin-top:2.6em;
+    margin-left:-1px;
+    z-index:100;
+  }
+
+#do-box .do-menu li {
+    margin-bottom: .4em;
+    white-space:nowrap;
+  }
+
+#do-box .do-menu li.ui-state-active {
+    border-left-width: 0;
+  }
+
+#do-box .do-menu li a {
+    padding: .4em 1em;
+    display:block;
+  }
+
+/* do-img die bilder aus dem oedner img */
+#do-box .do-img {
+    vertical-align:middle;
+}
+
+/* die von der docu.php erzeugten platzhalter */
+#do-box .do-placholder-link {
+    padding-left:30%;
+}
+
+#do-box .do-placholder-top {
+    margin-top:1em;
+}
+
+#do-box .do-placholder td {
+    vertical-align:top;
+    padding-right:1em;
+    text-align:left;
+}
+
+#do-box .do-placholder .do-placholder-last {
+    padding-right:0;
+}
+
+#do-box .to-auto-button {
+    font-weight : bold;
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+#do-box .to-open, .to-close {
+    text-decoration:underline;
+    display:none;
+    cursor:pointer;
+}
+
+#do-box .to-docu-button, #to-docu-button-all-o, #to-docu-button-all-c {
+    font-weight : bold;
+    font-family:monospace;
+    text-decoration:none;
+    cursor:pointer;
+}
+
+#do-box .do-docu-table {
+    border-collapse:collapse;
+    background-color:transparent;
+}
+
+#do-box .do-docu-table-td {
+    padding:.2em .5em;
+    text-align:center;
+    vertical-align : middle;
+    border:1px solid #000;
+    background-color:#72FF72;
+}
+
+#do-box .do-docu-table-th {
+    font-weight:bold;
+    padding:.2em .5em;
+    text-align:center;
+    vertical-align : middle;
+    border:1px solid #000;
+    background-color:#CCCCCC;
+}
+
+#do-box .do-placholder-modul-content {
+    border-bottom:.4em dashed #f00;
+}
+
+#do-box .do-docu-table-td-content {
+    padding:0;
+    padding-bottom:1em;
+}
+
+#do-box p .mo-icons-icon, #do-box p .mo-icons-file {
+    margin-top:-4px;
+    margin-bottom:-2px;
+}
+
+#do-box p .mo-icons-file {
+    height:24px;
+}
+
+#do-box p input {
+    margin-top:-4px;
+    margin-bottom:-4px;
+    vertical-align : middle;
+}
+
+#do-box .js-in-link, #do-box .js-in-name {
+    width:14em;
+    margin-right: 1em;
+}
+
+/* ################################################################################# */
+/* ab hier algemeine css sachen */
+#do-box .do-separate {
+    border-collapse:collapse;
+    border:2px ridge #D6D6D6;
+    border-left-width:0;
+    border-right-width:0;
+    padding-top: .5em;
+    margin: .5em 0 .5em 0;
+}
+
+#do-box .do-separate-1 {
+    border-collapse:collapse;
+    border:2px ridge #D6D6D6;
+    border-left-width:0;
+    border-right-width:0;
+    border-top-width:0;
+    padding-top: .5em;
+    margin: .5em 0 .5em 0;
+}
+
+#do-box .do-space-top {
+    margin-top:3.5em;
+}
+
+#do-box .do-after-br {
+    margin-bottom:1.5em;
+}
+
+#do-box .do-indent {
+    padding-left:2em;
+}
+
+#do-box .do-rot {
+    color : #f00;
+}
+
+#do-box .do-table {
+    border-collapse:collapse;
+    background-color:transparent;
+}
+
+/*1=oben, 2=rechts, 3=unten, 4=links*/
+#do-box .do-table td {
+    padding:.2em .5em;
+    text-align:left;
+    vertical-align : middle;
+    border:1px solid #000;
+    background-color:#fff;
+}
+
+#do-box .do-table th {
+    padding:.2em .5em;
+    font-weight:bold;
+    text-align:center;
+    background-color:#CCCCCC;
+    border:1px solid #000;
+}
+
+#do-box .do-table-example th {
+    text-align:left;
+    background-color:transparent;
+}
+
+#do-box td.do-no-td {
+    border:0;
+    background-color:transparent;
+}
+
+#do-box td.do-td-top {
+    vertical-align : top;
+  }
+
+#do-box td.do-td-center {
+    text-align:center;
+}
+
+#do-box td.do-td-right {
+    text-align:right;
+}
+
+#do-box .do-info-box {
+    background-image:url('information.png');
+    background-position: .3em .3em;
+    background-repeat: no-repeat;
+    background-color:#ffff80;
+    padding: .5em .5em .5em 2.5em;
+}
+
+#do-box .do-link-box {
+    background-color:#c9fdd1;
+	text-align:right;
+    padding: .5em .5em .5em 2.5em;
+}
+
+#do-box .do-error-box {
+    background-image:url('warning.png');
+    background-position: .3em .3em;
+    background-repeat: no-repeat;
+    background-color:#FF9F9F;
+    padding: .5em .5em .5em 2.5em;
+}
+
+#do-box .do-p-tag {
+    margin: 1em 0;
+}
+
+/* das kann iregend wann raus da wir jetzt pfeile ins bild machen */
+#do-box .do-div-legende {
+    position:absolute;
+    padding: .1em .4em;
+    border:1px solid #f00;
+    color:#f00;
+    font-weight:bold;
+    text-align : center;
+    vertical-align:middle;
+}
+
+#do-box .do-list {
+    padding-left: 1.6em;
+}
+
+#do-box .do-list li div {
+    padding-left: .8em;
+}
+
+#do-box .do-li-tag li {
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#do-box .do-nomargin-top {
+    margin-top:0;
+}
+
+#do-box .do-margin-start {
+    margin-top:1.5em;
+}
+
+#do-box h4.do-h4 {
+    font-size:1em;
+    font-weight:bold;
+    margin-bottom:.2em;
+}
+
+#do-box a.do-molink, #do-box a.do-molink:link, #do-box a.do-molink:visited , #do-box a.do-molink:active {
+    cursor:pointer;
+    text-decoration:underline;
+    color:#6A849D;
+}
+
+#do-box a.do-molink:hover {
+    color:#AE6427;
+}
+
+#do-box .do-paren {
+    padding-left:.2em;
+    padding-right:.1em;
+}
+
+
+#doTopLink, #doTopLink:visited, #doTopLink:active, #doTopLink:hover {
+    color:#3d3d3d;
+    font-size:1.2em;
+    position:fixed;
+    left:50%;
+    display:inline-block;
+    background-color:#A0A0A0;
+    background-color:rgba(160,160,160,0.4);
+    font-weight:bold;
+    text-decoration:none;
+    text-align:center;
+    padding:5px;
+    z-index:2000;
+}
+
+.do-body-nodialog #doTopLink {
+    top:0;
+    -moz-border-radius-bottomleft: .6em;
+    -webkit-border-bottom-left-radius: .6em;
+    -khtml-border-bottom-left-radius: .6em;
+    border-bottom-left-radius: .6em;
+    -moz-border-radius-bottomright: .6em;
+    -webkit-border-bottom-right-radius: .6em;
+    -khtml-border-bottom-right-radius: .6em;
+    border-bottom-right-radius: .6em;
+}
+
+.do-body-dialog #doTopLink {
+    bottom:0;
+    -moz-border-radius-topleft: .6em;
+    -webkit-border-top-left-radius: .6em;
+    -khtml-border-top-left-radius: .6em;
+    border-top-left-radius: .6em;
+    -moz-border-radius-topright: .6em;
+    -webkit-border-top-right-radius: .6em;
+    -khtml-border-top-right-radius: .6em;
+    border-top-right-radius: .6em;
+}
+
+#do-box .fu-ext-imgs {
+    vertical-align : middle;
+}
+
+#do-box .ed-syntax-icon {
+    margin-right: 1px;
+}
+
+#do-box .mo-icons-icon, #do-box .mo-icons-file {
+    vertical-align:middle;
+}
+
+#do-box .mo-icons-editor-cursor {
+    vertical-align:middle;
+}
+
+#do-box .ed-farbe {
+    background-color: #d30000;
+    color: #000;
+}
+
+/* die id muss nee class werden siehe editsite.css */
+#do-box .pagecontent {
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+#do-box .pagecontent .mo-icons-editor-cursor {
+    position:absolute;
+}
+
+#do-box .pagecontent-border {
+    margin: 0;
+    padding: 0;
+}
+
+@media print {
+    #do-main {
+        width: 850px;
+    }
+    .do-noprint {
+        display:none;
+    }
+}
