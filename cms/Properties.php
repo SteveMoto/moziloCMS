@@ -44,10 +44,12 @@ class Properties {
             * Hinweise aus dem Internet: 
             * - Möglicher PHP 7.4 Bug: Erst ab PHP 7.4.x kommt die Notice, vorher nicht
             *  
-            * -> Lösung: admin\index.php
-            *            
+            * -> Erster Ansatz: admin\index.php           
             *    Einbau Prüfung der $_GET['logout'] Parameter Übergabe! 
             * 
+            * -> Unterdrückung PHP Notice eingebaut - 19.09.2020
+            *    -> ... @file_get_contents($testfile)) ...
+            *    
             */
 
             $conf = "";                        
@@ -56,7 +58,7 @@ class Properties {
             
             if (file_exists($testfile) && is_readable($testfile)) {
              
-              if (!$conf = file_get_contents($testfile)) {
+              if (!$conf = @file_get_contents($testfile)) {
                 die("Fatal Error: PHP 7.4 Bug or possible attack? -> ". basename($testfile));
               } 
        

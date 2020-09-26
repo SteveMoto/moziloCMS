@@ -216,7 +216,7 @@
         }
         if($mandatory)
             $form .= "<div class=\"row\"><div class=\"col-25\"></div><div class=\"col-75\">".$lang_contact->getLanguageValue("contactform_mandatory_fields")."</div></div>";
-        $form .= "<div class=\"row\"><div class=\"col-25\"></div><div class=\"col-75\"><input type=\"submit\" class=\"submit\" id=\"contact_submit\" name=\"submit\" value=\"".$lang_contact->getLanguageValue("contactform_submit")."\" /></div></div>";
+        $form .= "<div class=\"row\"><div class=\"col-25\">&nbsp;</div><div class=\"col-75\"><input type=\"submit\" class=\"submit\" id=\"contact_submit\" name=\"submit\" value=\"".$lang_contact->getLanguageValue("contactform_submit")."\" /></div></div>";
         $form .= "</div>"
         ."</form>";
         

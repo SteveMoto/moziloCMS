@@ -1,7 +1,7 @@
 /*
  * Contact plugin css file
  * 
- * modified: 20-08-2020 - 06:34 Uhr
+ * modified: 09-09-2020 - 09:00 Uhr
  * 
  */
 
@@ -25,16 +25,19 @@
 .col-25 {
     float: left;
     width: 30%;
+    padding: 0.5em;
 }
 
 .col-75 {
     float: left;
     width: 60%;
+    padding: 0.5em;
 }
 
 .col-75 input {
     margin: 0em;
     width: 100%;
+    line-height: 1.5em;
 }
 
 .col-75 textarea {
@@ -46,9 +49,10 @@
 .col-75 input[type=submit] {
  
     display: block;
-    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
  
-    width: 50;
+    width: 16em;
     height: 3em;
      
     background: #ccc;
