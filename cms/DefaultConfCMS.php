@@ -1,8 +1,8 @@
 <?php if(!defined('IS_CMS')) die();
 
 define("CMSVERSION","2.0");
-define("CMSNAME","Amalia");
-define("CMSREVISION","52");
+define("CMSNAME","Nasatri");
+define("CMSREVISION","53");
 
 #!!!!!!!! die version müssen wir noch checken
 define("MIN_PHP_VERSION","5.1.2");
