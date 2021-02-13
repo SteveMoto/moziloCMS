@@ -71,7 +71,7 @@ $oldkey_newkey = array(
                     'France' => 'frFR',
                     'Italian' => 'itIT',
                     'Portuguese' => 'ptBR',
-                    'Hrvatski' => 'hrHr'
+                    'Hrvatski' => 'hrHR'
                     );
 global $GALLERY, $SYNTAX, $gallery_plugin;
 $gallery_plugin = false;
