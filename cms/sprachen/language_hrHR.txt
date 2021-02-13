@@ -1,11 +1,18 @@
-﻿# Ne uklanjajte ove redove / Do not remove these lines
+# Ne uklanjajte ove redove / Do not remove these lines
 #
-# $Revision: 829 $
-# $LastChangedDate: 2020-09-22 20:21:05 +0100 (Di, 22. Sep 2020) $
-# $Author: moziloCMS $
+# $Revision: 830 $
+# $LastChangedDate: 2021-02-13 $
+# $Author: hausl78, SteveMoto $
 #
 _dateformat_0                                   = %Y-%d-%m, %H:%M:%S
 _translator_0                                   = Mighty
+
+_timezone                                       = 
+
+
+_search_chars_lo                                = 
+_search_chars_hi                                = 
+
 # alttext_galleryimage_1                        = Slika u galeriji "{PARAM1}"
 alttext_image_1                                 = Slika "{PARAM1}"
 anchor_top_0                                    = Povratak na vrh
@@ -40,7 +47,7 @@ plugin_error_1                                  = Pogreška u dodatku {PARAM1}. 
 plugin_error_missing_pluginconf_1               = Pogreška u dodatku {PARAM1}: nedostaje plugin.conf. Molimo kontaktirajte autora dodatka.
 plugin_error_missing_method_2                   = Pogreška u dodatku {PARAM1}: Nedostaje metoda {PARAM2}. Molimo kontaktirajte autora dodatka.
 plugin_error_value_1                            = Pogreška u dodatku {PARAM1}: Neispravan prijenos parametara, pogledajte pomoć za dodatak
-thirsty_programmer                              = Pozdrav, volio bih popiti pivo! ;)
+thirsty_programmer                              = Pozdrav, volio bih popiti pivo!
 tooltip_anchor_error_1                          = Stavak "{PARAM1}" ne postoji
 tooltip_anchor_goto_1                           = Skoči na odlomak "{PARAM1}"
 tooltip_anchor_gototop_0                        = Vratite se na vrh
@@ -54,6 +61,7 @@ tooltip_include_recursion_error_0               = Stranica se ne može uključit
 tooltip_link_category_1                         = Promijeni u kategoriju "{PARAM1}"
 tooltip_link_category_error_1                   = Nedostaje kategorija "{PARAM1}"
 tooltip_link_extern_1                           = otvori vanjsku adresu "{PARAM1}"
+tooltip_link_cmsinfo                            = Web stranica kreirana moziloCMS-om
 tooltip_link_extern_error_1                     = Pogrešna adresa veze "{PARAM1}"
 tooltip_link_file_1                             = Preuzmi datoteku "{PARAM1}"
 tooltip_link_file_2                             = Preuzmi datoteku "{PARAM1}" iz kategorije "{PARAM2}"
@@ -68,4 +76,3 @@ tooltip_link_page_2                             = Prikaži stranicu "{PARAM1}" i
 tooltip_link_page_error_1                       = Nedostaje stranica "{PARAM1}"
 tooltip_link_page_error_2                       = Nedostaje stranica "{PARAM1}" u kategoriji "{PARAM2}"
 tooltip_showsitemap_0                           = Prikaži kartu web mjesta
-tooltip_link_cmsinfo                            = Web stranica kreirana moziloCMS-om
