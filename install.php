@@ -67,6 +67,7 @@ $LANG_INSTALL['nlNL'] = 'Nederlands';
 $LANG_INSTALL['plPL'] = 'Polski';
 $LANG_INSTALL['daDK'] = 'Dansk';
 $LANG_INSTALL['ptBR'] = 'Português';
+$LANG_INSTALL['hrHR'] = 'Hrvatski';
 
 testInstall();
 

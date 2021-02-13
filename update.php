@@ -70,7 +70,8 @@ $oldkey_newkey = array(
                     'English' => 'enEN',
                     'France' => 'frFR',
                     'Italian' => 'itIT',
-                    'Portuguese' => 'ptBR'
+                    'Portuguese' => 'ptBR',
+                    'Hrvatski' => 'hrHR'
                     );
 global $GALLERY, $SYNTAX, $gallery_plugin;
 $gallery_plugin = false;
