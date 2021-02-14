@@ -6,13 +6,13 @@
 #
 _dateformat_0                                   = 
 _translator_0                                   = 
-0
+
 _timezone                                       = 
-0
-0
+
+
 _search_chars_lo                                = 
 _search_chars_hi                                = 
-0
+
 # alttext_galleryimage_1                        = 
 alttext_image_1                                 = 
 anchor_top_0                                    = 
