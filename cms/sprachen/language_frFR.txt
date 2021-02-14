@@ -1,33 +1,42 @@
 # Diese Zeilen nicht löschen / Do not remove these lines
 #
-# $Revision: 828 $
-# $LastChangedDate: 2011-01-06 20:21:05 +0100 (Do, 06. Jan 2011) $
-# $Author: hausl78 $
+# $Revision: 829 $
+# $LastChangedDate: 2021-02-13 $
+# $Author: hausl78, SteveMoto $
 #
 _dateformat_0                                   = le %d %m %Y, %H:%M:%S
 _translator_0                                   = Jens Rieger, Etienne Ruedin
-# alttext_galleryimage_1                          = Galerie d'images "{PARAM1}"
+
+_timezone                                       = 
+
+
+_search_chars_lo                                = 
+_search_chars_hi                                = 
+
+# alttext_galleryimage_1                        = Galerie d'images "{PARAM1}"
 alttext_image_1                                 = Image "{PARAM1}"
 anchor_top_0                                    = Vers le haut
 message_downloads                               = Télécharger
 message_draft_0                                 = Esquisse
-# message_firstimage_0                            = Première image
+# message_firstimage_0                          = Première image
 message_galleries_0                             = Galeries
 message_gallery_1                               = Galerie "{PARAM1}"
-# message_gallery_xoutofy_2                       = (Image {PARAM1} de {PARAM2})
-# message_gallerydir_error_1                      = Répertoire de la galerie "{PARAM1}" inconnu!
-# message_gallerydir_error_0                      = Aucun répertoire de galerie n'est donné!
+# message_gallery_xoutofy_2                     = (Image {PARAM1} de {PARAM2})
+# message_gallerydir_error_1                    = Répertoire de la galerie "{PARAM1}" inconnu!
+# message_gallerydir_error_0                    = Aucun répertoire de galerie n'est donné!
 message_galleryembed_error_0                    = En raison des paramètres actuels du CMS, la galerie ne peut être utilisée qu'embarquée.
-# message_galleryempty_0                          = Cette galerie ne contient pas d'images.
+# message_galleryempty_0                        = Cette galerie ne contient pas d'images.
 message_gallerypreviewdir_error_1               = Aperçu répertoire manquant "{PARAM1}"!
-# message_gallery_no_preview                      = Aperçu non disponible
+# message_gallery_no_preview                    = Aperçu non disponible
 message_lastchange_0                            = Dernière modification:
-# message_lastimage_0                             = Dernière image
-# message_nextimage_0                             = Prochaine image
+# message_lastimage_0                           = Dernière image
+# message_nextimage_0                           = Prochaine image
 message_nodatafound_0                           = Pas de contenus adaptés.
-# message_previousimage_0                         = Image précédente
+# message_previousimage_0                       = Image précédente
 message_search_0                                = Rechercher
 message_searchresult_1                          = Résultats de la recherche pour "{PARAM1}"
+message_searchnoresult_1                        = 
+message_searchhelp_0                            = 
 message_sitemap_0                               = Plan du site
 message_template_error_1                        = Fichier de modèle "{PARAM1}" est absent! Veuillez contacter l'administrateur.
 passwordform_title_0                            = Mot de passe demandé
@@ -37,27 +46,29 @@ passwordform_send_0                             = Envoyer
 plugin_error_1                                  = Erreur générale dans le plugiciel {PARAM1}. Veuillez contacter l'auteur du plugiciel.
 plugin_error_missing_pluginconf_1               = Erreur dans le plugiciel {PARAM1}: plugin.conf manque. Veuillez contacter l'auteur du plugiciel.
 plugin_error_missing_method_2                   = Erreur dans le plugiciel {PARAM1}: La méthode {PARAM2} manque. Veuillez contacter l'auteur du plugiciel.
+plugin_error_value_1                            = 
 thirsty_programmer                              = Offrez une bière de chez vous au programmeur :)
 tooltip_anchor_error_1                          = Paragraphe "{PARAM1}" n'existe pas
 tooltip_anchor_goto_1                           = Sauter vers le paragraphe "{PARAM1}"
 tooltip_anchor_gototop_0                        = Sauter vers le haut
 tooltip_attribute_error_1                       = Syntaxe incorrecte: Attribut inconnu "{PARAM1}"
 tooltip_color_error_1                           = Mauvais valeur de couleur "{PARAM1}"
-# tooltip_gallery_fullscreen_1                    = Plein écran: "{PARAM1}"
+# tooltip_gallery_fullscreen_1                  = Plein écran: "{PARAM1}"
 tooltip_image_error_1                           = Fichier inconnu ou adresse erroné: "{PARAM1}"
 tooltip_image_error_2                           = Fichier d'image "{PARAM1}" dans la catégorie "{PARAM2}" non disponible
 tooltip_include_recursion_error_0               = Pages ne peuvent pas monter sur eux-mêmes
-tooltip_include_reinclude_error_0               = Includes intégrées dans les pages de contenu sont interdites
+# tooltip_include_reinclude_error_0             = Includes intégrées dans les pages de contenu sont interdites
 tooltip_link_category_1                         = Changer la catégorie "{PARAM1}" 
 tooltip_link_category_error_1                   = Catégorie "{PARAM1}" non disponible
 tooltip_link_extern_1                           = Appeler adresse externe "{PARAM1}"
+tooltip_link_cmsinfo                            = 
 tooltip_link_extern_error_1                     = Échec de l'adresse du lien "{PARAM1}"
 tooltip_link_file_1                             = Télécharger fichier "{PARAM1}"
 tooltip_link_file_2                             = Télécharger fichier "{PARAM1}" de la catégorie "{PARAM2}"
 tooltip_link_file_error_1                       = Fichier "{PARAM1}" non disponible
 tooltip_link_file_error_2                       = Fichier "{PARAM1}" de la catégorie  "{PARAM2}" non disponible
-# tooltip_link_gallery_2                          = Galerie "{PARAM1}" ({PARAM2} Image) voir
-# tooltip_link_gallery_error_1                    = Galerie "{PARAM1}" non disponible
+# tooltip_link_gallery_2                        = Galerie "{PARAM1}" ({PARAM2} Image) voir
+# tooltip_link_gallery_error_1                  = Galerie "{PARAM1}" non disponible
 tooltip_link_mail_1                             = Envoyer courriel à "{PARAM1}"
 tooltip_link_mail_error_1                       = Adresse de courriel "{PARAM1}" éronnée
 tooltip_link_page_1                             = Affiche page "{PARAM1}"

@@ -1,8 +1,8 @@
 # Diese Zeilen nicht löschen / Do not remove these lines
 #
-# $Revision: 844 $
-# $LastChangedDate: 2011-01-12 15:51:56 +0100 (Mi, 12. Jan 2011) $
-# $Author: stefanbe $
+# $Revision: 845 $
+# $LastChangedDate: 2021-02-13 $
+# $Author: hausl78, SteveMoto $
 #
 _dateformat_0                                   = %d.%m.%Y, %H:%M:%S
 _translator_0                                   = mozilo
@@ -13,26 +13,26 @@ _timezone                                       = Europe/Berlin
 _search_chars_lo                                = 
 _search_chars_hi                                = 
 
-# alttext_galleryimage_1                          = Galeriebild "{PARAM1}"
+# alttext_galleryimage_1                        = Galeriebild "{PARAM1}"
 alttext_image_1                                 = Bild "{PARAM1}"
 anchor_top_0                                    = Seitenanfang
 message_downloads                               = Downloads
 message_draft_0                                 = Entwurf
-# message_firstimage_0                            = Erstes Bild
+# message_firstimage_0                          = Erstes Bild
 message_galleries_0                             = Galerien
 message_gallery_1                               = Galerie "{PARAM1}"
-# message_gallery_xoutofy_2                       = (Bild {PARAM1} von {PARAM2})
-# message_gallerydir_error_1                      = Unbekanntes Galerieverzeichnis "{PARAM1}"!
-# message_gallerydir_error_0                      = Es wurde kein Galerieverzeichnis angegeben!
+# message_gallery_xoutofy_2                     = (Bild {PARAM1} von {PARAM2})
+# message_gallerydir_error_1                    = Unbekanntes Galerieverzeichnis "{PARAM1}"!
+# message_gallerydir_error_0                    = Es wurde kein Galerieverzeichnis angegeben!
 message_galleryembed_error_0                    = Entsprechend den aktuellen CMS-Einstellungen können Galerien nur eingebettet genutzt werden.
-# message_galleryempty_0                          = Diese Galerie enthält keine Bilder.
+# message_galleryempty_0                        = Diese Galerie enthält keine Bilder.
 message_gallerypreviewdir_error_1               = Fehlendes Vorschauverzeichnis "{PARAM1}"!
-# message_gallery_no_preview                      = Vorschaubild nicht vorhanden
+# message_gallery_no_preview                    = Vorschaubild nicht vorhanden
 message_lastchange_0                            = Letzte Änderung:
-# message_lastimage_0                             = Letztes Bild
-# message_nextimage_0                             = Nächstes Bild
+# message_lastimage_0                           = Letztes Bild
+# message_nextimage_0                           = Nächstes Bild
 message_nodatafound_0                           = Keine passenden Inhalte gefunden.
-# message_previousimage_0                         = Voriges Bild
+# message_previousimage_0                       = Vorheriges Bild
 message_search_0                                = Suchen
 message_searchresult_1                          = Suchergebnisse für "{PARAM1}"
 message_searchnoresult_1                        = Es konnte mit diesen Suchbegriffen "{PARAM1}" kein Inhalt gefunden werden!
@@ -67,8 +67,8 @@ tooltip_link_file_1                             = Datei "{PARAM1}" herunterladen
 tooltip_link_file_2                             = Datei "{PARAM1}" der Kategorie "{PARAM2}" herunterladen
 tooltip_link_file_error_1                       = Datei "{PARAM1}" nicht vorhanden!
 tooltip_link_file_error_2                       = Datei "{PARAM1}" in der Kategorie "{PARAM2}" nicht vorhanden!
-# tooltip_link_gallery_2                          = Galerie "{PARAM1}" ({PARAM2} Bilder) ansehen
-# tooltip_link_gallery_error_1                    = Galerie "{PARAM1}" nicht vorhanden!
+# tooltip_link_gallery_2                        = Galerie "{PARAM1}" ({PARAM2} Bilder) ansehen
+# tooltip_link_gallery_error_1                  = Galerie "{PARAM1}" nicht vorhanden!
 tooltip_link_mail_1                             = E-Mail an "{PARAM1}" verfassen
 tooltip_link_mail_error_1                       = Fehlerhafte E-Mail-Adresse "{PARAM1}"!
 tooltip_link_page_1                             = Inhaltsseite "{PARAM1}" anzeigen

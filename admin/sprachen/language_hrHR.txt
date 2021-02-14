@@ -1,4 +1,4 @@
-﻿_dateformat                          =%Y-%d-%m, %H:%M:%S
+_dateformat                          = %Y-%d-%m, %H:%M:%S
 _translator                          = Mighty
 # der Wert ist für date_default_timezone_set()
 _timezone                            = Europe/Zagreb
@@ -206,7 +206,7 @@ gallery_error_noexists               = Ne postoji galerija s ovakvim imenom.
 gallery_delete_confirm               = Želite li izbrisati ovu galeriju sa svim slikama i titlovima?
 gallery_image_size                   = veličina slike
 gallery_preview_size                 = Veličina pregleda
-gallery_text_subtitle                =subtitle
+gallery_text_subtitle                = subtitle
 
 config_button                        = Postavke
 config_text                          = Ovdje možete promijeniti postavke koje utječu na ponašanje moziloCMS-a.
@@ -368,6 +368,7 @@ template_button_delete               = Izbriši sve odabrane predloške
 template_input_set_active            = Aktivirati
 template_select                      = ili iz mape "predložak"
 
+
 install_tab_help                     = pomoć
 install_tab_language                 = Jezik
 install_tab_chmod_test               = Dopuštenja
@@ -379,10 +380,12 @@ install_tab_finish                   = Završi
 install_toggle_open                  = ... Čitaj više
 install_toggle_close                 = Manje ...
 
+
 install_help                         = "<b> Dobro došli u instalacijski program moziloCMS </b> <br /> <br /> Sljedeći koraci testirat će vaš web poslužitelj na potrebne uvjete za instalaciju moziloCMS-a. <br /> Osim toga, postavit će se osnovne postavke. Sve mogu se u bilo kojem trenutku promijeniti u području administracije. <br /> <br/> <b> Pažnja! </b> Sljedeće datoteke nakon instalacije moraju se izbrisati iz sigurnosnih razloga: "" install.php "" ako je dostupno "" update.php "" i mapa "" update "".
 
 install_help_update_title            = <b> Dobro došli u dijaloški okvir za instalaciju moziloCMS-a </ b> <br /> <br /> Sljedeći koraci su testiranje ispunjava li web-poslužitelj ili web hosting paket zahtjeve za moziloCMS. <br /> Također su napravljene osnovne postavke. Sve ove postavke mogu se promijeniti u bilo kojem trenutku kasnije u odjeljku admin. <br /> <br /> Za probleme s "dozvolama za datoteke" ili "lijepim URL-ovima" u ovom je <a href http://www.mozilo.de/forum/index .php / topic, 18.0.html target_blank> objavite na forumu </a> Vjerojatno pomoć koja vam treba. U suprotnom jednostavno pitajte <br /> <br /> <b> Instalacijski program je također potreban ako: </ b> <ul> <li> je lozinka zaboravljena </ li> <li> ili je moziloCMS s računala na web-poslužitelj Kopiran je </ li> <li> ili ga treba ažurirati sa stare verzije moziloCMS-a. </ Li> </ ul> <br /> <b> Pozor! </ B> <br /> Mape "<b> install.php </ b>" i "<b> update.php </ b>" te mapa "<b> update </ b>" moraju biti izbrisani nakon instalacijskog postupka jer su veliki. Svakako provjerite je li to slučaj.
 install_help_update_text             = Sve ovdje spomenute točke mogu se provoditi jedna za drugom ili kasnije. <Ul> <li> Kopirajte sve kategorije s njihovim sadržajem u mapu 2.0 kategorije <b> kategorije </ b>. </ Li> <li> Kopiraj galerije u mapu 2.0 <b> galerije </ b> </ li> <li> kopirajte izglede u mapu 2.0 <b> rasporedi </ b>. </ Li> <li> sada u korijenskom direktoriju (na primjer: moziloCMS /) stvorite mapu <b> update </ b> </ li> <li> u ovoj mapi <b> update </ b>, sve <b> .conf </ b> datoteke isključene iz <b> ... / admin / conf </ b> i <b> ... / cms / conf </ b> i ako su dostupne <b> ... / form / formular.conf </ b> copy </ li> </ ul> moziloCMS 1.12 Datoteke za konfiguraciju dodatka (<b> plugin.conf </ b>) na moziloCMS 2.0 update <br /> <br /> Preduvjet: < ol> <li> Dodatak je također dostupan za moziloCMS 2.0 </ li> <li> Postavke su toliko složene da se previše prilagođava ručno </ li> <li> Postoje iste postavke kao u starom </ li > </ ol> upute: <ol> <li> Ako postoji, <b> dodatak.conf.php </ b> Izbriši. </ li> <li> Iz starog dodatka zalijepite <b> plugin.conf </ b> u novu kopiju. </ li> </ ol>
+
 
 install_help_password                = Zaboravio sam samo lozinku i želio bih stvoriti novu
 install_help_password_button         = samo promijenite lozinku
@@ -399,7 +402,6 @@ install_chmod_help                   = "<b> Atributi za datoteke i prava pristup
 install_chmod_no_chmod               = Nije potreban chmod.
 
 install_chmod_testfile_rw            = "Možete li izbrisati" "<b> {PARAM1} </b> putem FTP-a? </b> Trenutni {PARAM2}"
-
 install_chmod_testfile_next_button   = Povećaj atribute datoteke
 
 install_chmod_use                    = "Korišteni su sljedeći atributi datoteke:" "<b> {PARAM1} </b>" ""
@@ -422,7 +424,6 @@ install_password_help                = <b> Lozinka </b> <br /> Upotrijebite pris
 install_finish_help                  = "<b> Završi </b> <br /> Skoro ste završili s instaliranjem moziloCMS-a. <br /> Za čisti završetak <b> kliknite gumb" "završi" "ispod </b>. <br /> To je važno za brisanje datoteke "" install.php "" i ako je dostupna "" update.php "" i "" update "" - mapa. <br /> Nakon nje ćete se preusmjeriti na Administratorsko područje vašeg novog -instaliran moziloCMS. <br /> <br /> <i> Zabavite se izrađujući svoju web stranicu! </i> <br /> Vaš moziloCMS-tim <br /> <br /> <b> Pozor! < / b> Iz sigurnosnih razloga provjerite je li naredba izbrisanja pravilno izvedena: Provjerite jesu li datoteke za izvršavanje izbrisane: "" install.php "", "" update.php "" i "" update "" - mapa. <br /> "
 
 install_finish_delerror              = <b> UPOZORENJE </ b> Ne mogu se izbrisati sve datoteke. <br /> Molimo koristite FTP program za ručno brisanje <br /> <br /> <b> {PARAM1} </ b> <br />
-
 install_finish_del                   = Sve su relevantne datoteke uspješno izbrisane.
 install_finish_local                 = <b> UPOZORENJE: </ b> Ovo je lokalna instalacija. <br /> Stoga datoteke povezane sa sigurnošću ne treba brisati.
 install_finish_submit                = Kliknite ovdje za prijavu na moziloCMS
@@ -430,7 +431,6 @@ install_finish_clean_button          = Izbrišite podatke koji se odnose na sigu
 install_finish_clean                 = <b> UPOZORENJE </ b> Iz sigurnosnih razloga moraju se izbrisati <b> "install.php" </ b> i <b> "update.php" </ b>, kao i <b> " ažuriraj "mapu </ b>, ako postoje. <br />
 
 install_update_help                  = "<b> Pažnja! Ažuriranje treba primijeniti samo na kopiju datoteka </b> <br /> U kategorijama i na stranicama sa sadržajem položaj će se izbrisati. U svim datotekama i slikama razmaci će se pretvoriti u" " _ "" i mutacija na primjer na ae, sve ostale vrste posebnih znakova bit će izbrisane. Ako to uzrokuje dvostruka imena datoteka u mapi, dat će im se prefiks "" Zahl_ "". "
-
 install_update_no_help               = <b> Nije dostupno ažuriranje. </b>
 install_update_buttom                = Započni ažuriranje
 install_update_files_in_pages        = Zamijenite nova imena datoteka na svim stranicama sadržaja. <br /> <b> Pozor! To je samo jednostavna zamjena: staro novim imenom datoteke. </b>

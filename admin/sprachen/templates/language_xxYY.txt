@@ -1,8 +1,8 @@
-_dateformat                          = %d.%m.%Y, %H:%M:%S
+_dateformat                          = 
 _translator                          = 
 
 _timezone                            = 
-language_name                        = Polski
+language_name                        = 
 cms_admin_titel                      = 
 file                                 = 
 files                                = 
@@ -62,9 +62,9 @@ pixels                               =
 logout_button                        = 
 website_button                       = 
 help_website_button                  = 
-target                               = Target:
-self                                 = self
-blank                                = blank
+target                               = 
+self                                 = 
+blank                                = 
 password                             = 
 username                             = 
 incorrect_login                      = 
@@ -256,7 +256,7 @@ config_input_draftmode               =
 config_text_draftmode                = 
 config_input_draftlayout             = 
 
-admin_button                         = moziloAdmin
+admin_button                         = 
 admin_text                           = 
 admin_error_nodigit_tolong           = 
 admin_error_adminmail                = 

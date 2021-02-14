@@ -1,0 +1,78 @@
+# Diese Zeilen nicht löschen / Do not remove these lines
+#
+#
+#
+#
+#
+_dateformat_0                                   = 
+_translator_0                                   = 
+
+_timezone                                       = 
+
+
+_search_chars_lo                                = 
+_search_chars_hi                                = 
+
+# alttext_galleryimage_1                        = 
+alttext_image_1                                 = 
+anchor_top_0                                    = 
+message_downloads                               = 
+message_draft_0                                 = 
+# message_firstimage_0                          = 
+message_galleries_0                             = 
+message_gallery_1                               = 
+# message_gallery_xoutofy_2                     = 
+# message_gallerydir_error_1                    = 
+# message_gallerydir_error_0                    = 
+message_galleryembed_error_0                    = 
+# message_galleryempty_0                        = 
+message_gallerypreviewdir_error_1               = 
+# message_gallery_no_preview                    = 
+message_lastchange_0                            = 
+# message_lastimage_0                           = 
+# message_nextimage_0                           = 
+message_nodatafound_0                           = 
+# message_previousimage_0                       = 
+message_search_0                                = 
+message_searchresult_1                          = 
+message_searchnoresult_1                        = 
+message_searchhelp_0                            = 
+message_sitemap_0                               = 
+message_template_error_1                        = 
+passwordform_title_0                            = 
+passwordform_pagepasswordplease_0               = 
+passwordform_message_passwordwrong_0            = 
+passwordform_send_0                             = 
+plugin_error_1                                  = 
+plugin_error_missing_pluginconf_1               = 
+plugin_error_missing_method_2                   = 
+plugin_error_value_1                            = 
+thirsty_programmer                              = 
+tooltip_anchor_error_1                          = 
+tooltip_anchor_goto_1                           = 
+tooltip_anchor_gototop_0                        = 
+tooltip_attribute_error_1                       = 
+tooltip_color_error_1                           = 
+# tooltip_gallery_fullscreen_1                  = 
+tooltip_image_error_1                           = 
+tooltip_image_error_2                           = 
+tooltip_include_recursion_error_0               = 
+# tooltip_include_reinclude_error_0             = 
+tooltip_link_category_1                         = 
+tooltip_link_category_error_1                   = 
+tooltip_link_extern_1                           = 
+tooltip_link_cmsinfo                            = 
+tooltip_link_extern_error_1                     = 
+tooltip_link_file_1                             = 
+tooltip_link_file_2                             = 
+tooltip_link_file_error_1                       = 
+tooltip_link_file_error_2                       = 
+# tooltip_link_gallery_2                        = 
+# tooltip_link_gallery_error_1                  = 
+tooltip_link_mail_1                             = 
+tooltip_link_mail_error_1                       = 
+tooltip_link_page_1                             = 
+tooltip_link_page_2                             = 
+tooltip_link_page_error_1                       = 
+tooltip_link_page_error_2                       = 
+tooltip_showsitemap_0                           = 
