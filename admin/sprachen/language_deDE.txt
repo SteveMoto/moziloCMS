@@ -244,7 +244,7 @@ config_input_download                = Datei-Downloads
 config_input_link                    = Externe Links
 config_text_catnamedpages            = Sollen Inhaltsseiten, die genau wie die Kategorie heißen, im Detailmenü versteckt werden
 config_input_catnamedpages           = Verstecken
-config_text_modrewrite               = Soll "mod_rewrite" aktiviert werden
+config_text_modrewrite               = Soll "mod_rewrite" aktiviert werden? Das sorgt für besser lesbare Links.
 config_input_modrewrite              = mod_rewrite aktivieren
 config_text_showsyntaxtooltips       = Sollen auf der Website Tooltips für Links angezeigt werden
 config_input_showsyntaxtooltips      = Tooltips anzeigen
@@ -263,7 +263,7 @@ admin_error_adminmail                = Das ist keine gültige E-Mail-Adresse!
 admin_error_chmodnewfilesatts        = Die Dateirechte müssen aus drei Ziffern bestehen, die jeweils zwischen 0 und 7 liegen!
 admin_error_backupmsgintervall       = Eine Zahl zwischen 0 und 9999 eingeben!
 admin_text_adminmail                 = E-Mail-Adresse, an die Meldungen über wichtige Ereignisse geschickt werden sollen.
-admin_text_backup                    = Nach wievielen Tagen soll moziloCMS an ein Backup der Website erinnern
+admin_text_backup                    = Nach wievielen Tagen soll moziloCMS an ein Backup der Website erinnern? (0 = nie)
 admin_text_get_backup                = Ein Backup der Website erzeugen und als ZIP-Datei downloaden.<br />Durch Aktivierung der einzelnen Checkboxen kann der Umfang des Backups bestimmt werden.
 admin_button_get_backup              = Backup downloaden
 admin_button_include_cms             = mit moziloCMS
@@ -401,7 +401,7 @@ install_next                         = Weiter
 install_chmod_help                   = <b>Datei- und Zugriffsrechte</b><br />Es wird versucht, die Server-Dateirechte zu ermitteln und zu setzen, die für die einwandfreie Funktion von moziloCMS nötig sind. <br />Sollte dies nicht vollständig gelingen, können sie im Admin-Bereich, im Tab "Admin", nachträglich gesetzt werden.<br /><br />Falls der Server moziloCMS daran hindert Dateien anzulegen, müssen die dafür nötigen Dateirechte zuerst per FTP, mit dem chmod-Befehl gesetzt werden, bevor die Installation fortgesetzt werden kann.
 install_chmod_no_chmod               = Kein chmod nötig.
 
-install_chmod_testfile_rw            = Lässt sich die Datei "<b>{PARAM1}</b>" per FTP <b>löschen
+install_chmod_testfile_rw            = Lässt sich die Datei "<b>{PARAM1}</b>" per FTP <b>löschen?</b> Aktueller Wert {PARAM2}
 install_chmod_testfile_next_button   = Dateirechte erweitern
 
 install_chmod_use                    = Diese Dateirechte werden benutzt: "<b>{PARAM1}</b>"
